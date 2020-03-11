@@ -1,0 +1,55 @@
+@font-face {
+    font-family: shabnam;
+    src: url('../fonts/Shabnam-WOL.eot'), url('../fonts/Shabnam-WOL.woff2') format('woff2'), url('../fonts/Shabnam-WOL.woff') format('woff'), url('../fonts/Shabnam-WOL.ttf') format('truetype');
+    font-weight: normal;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    direction: rtl;
+    font-family: shabnam;
+}
+
+.sidebar {
+    width: 30%;
+    height: 660px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: cyan;
+}
+
+.tm-data {
+    width: 100%;
+    height: 20%;
+    color: blueviolet;
+}
+.famaily {
+    width:100%;
+    height: 20%;
+}
+
+.famaily ul {
+margin-right: 20px;
+}
+
+.name {
+    color:black;
+}
+
+.job{
+    color: rgb(184, 184, 184);
+}
+
+.circle{
+    width: 50px;
+   height: 50px;
+   background-color: #0088FF;
+   border-radius: 50%;
+}
