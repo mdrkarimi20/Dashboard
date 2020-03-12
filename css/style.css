@@ -98,7 +98,7 @@ justify-content: center;
 
 .top {
     width: 100%;
-    height: 40vh;
+    height: 20vh;
 }
 
 .top ul{
@@ -311,3 +311,62 @@ border-radius: 4%;
             margin-right: 35px;
             border-radius: 4%;
             }
+
+.Center{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    flex-direction: row;
+    margin-top:20px;
+}
+
+.Center ul{
+    display: flex;
+    flex-direction: row;
+    margin-right: 20px;
+    width: 100%;
+    border-radius: 50%; 
+}
+
+.Center-right{
+    width: 60%;
+    height: 40vh;
+    background-color: blueviolet;
+    border-radius: 1%;
+    display: flex;
+}
+
+.Center-left{
+    width: 40%;
+    height: 40vh;
+    display: flex;
+    background-color: white;
+    border-radius: 1%;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+ 
+.Center-left ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 25px;
+}
+
+.Center-left ul li {
+    display: flex;
+}
+
+.performance {
+    height: 30px;
+    border-bottom: 2px solid blueviolet;
+}
+
+.month{
+    border: 1px solid rgb(167, 167, 167);
+    height: 30px;
+    padding: 5px;
+    font-size: 11px;
+    border-radius: 10%;
+    color: rgb(167, 167, 167);
+}
