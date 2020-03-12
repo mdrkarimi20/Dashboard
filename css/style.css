@@ -17,11 +17,12 @@ body {
 
 .page{
     display: flex;
+    height: 100vh;
 }
 
 .sidebar {
-    width: 20%;
-    height: 660px;
+    width: 15%;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -31,7 +32,7 @@ body {
 
 .tm-data {
     width: 100%;
-    height: 20%;
+    height: 20vh;
     color: blueviolet;
     display: flex;
     flex-direction: column;
@@ -48,7 +49,7 @@ body {
 
 .famaily {
     width:100%;
-    height: 20%;
+    height: 20vh;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -61,18 +62,21 @@ body {
 
 .famaily ul li{
 display: flex;
+justify-content: center;
 }
 
 .name {
     color:black;
+    font-size: 11px;
 }
 
 .job{
     color: rgb(184, 184, 184);
+    font-size: 11px;
 }
 
 .circle{
-    width: 50px;
+   width: 50px;
    height: 50px;
    background-color: #0088FF;
    border-radius: 50%;
@@ -87,25 +91,44 @@ display: flex;
 }
 
 .container{
-    width: 80%;
-    height: 660px;
-    background-color: rgb(197, 197, 197);
-    }
-    
+    width: 85%;
+    height: 100vh;
+    background-color: rgb(243, 243, 243);
+}
+
+.top {
+    width: 100%;
+    height: 40vh;
+}
+
+.top ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.top ul li{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
 .users{
- width: 25%;
+width: 25%;
 height: 100px;
 background-color: white;
 display: flex;
 align-items: center;
 margin: 20px;
 justify-content: space-between;
+border-radius: 4%;
+}
+
+.users ul{
+    display: flex;
+    flex-direction: column;
 }
 
 .users ul li{
-    display: flex;
-    display: flex;
-    flex-direction: column;
     align-items: right;
     margin-right: 20px;
     padding: 3px;
@@ -113,18 +136,22 @@ justify-content: space-between;
 
 .users-total {
     color: rgb(167, 167, 167);
+    font-size: 11px;
 }
 
-.users-number{
+.users-number {
     color: black;
     font-weight: bold;
+    font-size: 15px;
 }
 
-.users-active{
+.users-active {
     color: rgb(167, 167, 167);
+    font-size: 11px;
+    font-size: 11px;
 }
 
-.icon{
+.icon-users {
 width: 25%;
 height: 100px;
 background-color: blueviolet;
@@ -132,4 +159,155 @@ display: flex;
 align-items: center;
 justify-content: center;
 margin-right: 35px;
+border-radius: 4%;
 }
+
+.tickets{
+    width: 25%;
+    height: 100px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    justify-content: space-between;
+    border-radius: 4%;
+    }
+    
+    .tickets ul{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .tickets ul li{
+        align-items: right;
+        margin-right: 20px;
+        padding: 3px;
+    }
+    
+    .tickets-total {
+        color: rgb(167, 167, 167);
+        font-size: 11px;
+    }
+    
+    .tickets-number {
+        color: black;
+        font-weight: bold;
+        font-size: 15px;
+    }
+    
+    .tickets-active {
+        color: rgb(167, 167, 167);
+        font-size: 11px;
+        font-size: 11px;
+    }
+    
+    .icon-tickets {
+    width: 25%;
+    height: 100px;
+    background-color: rgb(255, 145, 0);
+    display: flex;    
+    align-items: center;
+    justify-content: center;
+    margin-right: 35px;
+    border-radius: 4%;
+    }
+
+.encyclopedias {
+        width: 25%;
+        height: 100px;
+        background-color: white;
+        display: flex;
+        align-items: center;
+        margin: 20px;
+        justify-content: space-between;
+        border-radius: 4%;
+        }
+        
+        .encyclopedias ul{
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .encyclopedias ul li{
+            align-items: right;
+            margin-right: 20px;
+            padding: 3px;
+        }
+        
+        .encyclopedias-total {
+            color: rgb(167, 167, 167);
+            font-size: 11px;
+        }
+        
+        .encyclopedias-number {
+            color: black;
+            font-weight: bold;
+            font-size: 15px;
+        }
+        
+        .encyclopedias-active {
+            color: rgb(167, 167, 167);
+            font-size: 11px;
+            font-size: 11px;
+        }
+        
+        .icon-encyclopedias {
+        width: 25%;
+        height: 100px;
+        background-color: rgb(255, 72, 0);
+        display: flex;    
+        align-items: center;
+        justify-content: center;
+        margin-right: 35px;
+        border-radius: 4%;
+        }
+
+.messages {
+            width: 25%;
+            height: 100px;
+            background-color: white;
+            display: flex;
+            align-items: center;
+            margin: 20px;
+            justify-content: space-between;
+            border-radius: 4%;
+            }
+            
+            .messages ul{
+                display: flex;
+                flex-direction: column;
+            }
+            
+            .messages ul li{
+                align-items: right;
+                margin-right: 20px;
+                padding: 3px;
+            }
+            
+            .messages-total {
+                color: rgb(167, 167, 167);
+                font-size: 11px;
+            }
+            
+            .messages-number {
+                color: black;
+                font-weight: bold;
+                font-size: 15px;
+            }
+            
+            .messages-active {
+                color: rgb(167, 167, 167);
+                font-size: 11px;
+                font-size: 11px;
+            }
+            
+            .icon-messages {
+            width: 25%;
+            height: 100px;
+            background-color: rgb(59, 105, 255);
+            display: flex;    
+            align-items: center;
+            justify-content: center;
+            margin-right: 35px;
+            border-radius: 4%;
+            }
